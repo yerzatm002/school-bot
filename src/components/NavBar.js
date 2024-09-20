@@ -29,9 +29,9 @@ const NavBar = () => {
             Басты бет
           </Button>
         
-        <Button color="inherit" component={Link} to="/courses">
+        {/* <Button color="inherit" component={Link} to="/courses">
           Мектеп пәндері
-        </Button>
+        </Button> */}
         <Button color="inherit" component={Link} to="/chats">
           Чат-бот
         </Button>

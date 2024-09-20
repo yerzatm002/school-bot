@@ -12,7 +12,7 @@ const Dashboard = () => {
       {/* Welcome Image */}
       <Box sx={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
         <img 
-          src="https://daryo.uz/cache/2020/03/maktab-Qozog%E2%80%98iston-2000x1316.jpg" 
+          src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/welcome.jpg?alt=media&token=75a4735a-f9d3-4061-b218-0fbde49d97bd" 
           alt="Welcome" 
           style={{ width: '80%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
         />
@@ -38,17 +38,17 @@ const Dashboard = () => {
       </Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
         <img 
-          src="https://sun9-65.userapi.com/impg/HxkyM7WvoUQnEe_Wu0yV7rZk_shlbfJTVmFINg/Q5f17oO-DR0.jpg?size=700x466&quality=96&sign=462083ce3b62a4773b040b12088f234d&c_uniq_tag=YrMYWWUJJvZF6o5G8SEOkTJEBLAKPbJYfDEdaGyZ8sg&type=album" 
+          src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/class1.jpg?alt=media&token=6968b625-741f-49f8-aef2-341b8e14196a" 
           alt="Educational Image 1" 
           style={{ width: '30%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
         />
         <img 
-          src="https://vecher.kz/uploads/images/2022/08/image_750x_6309fbcea157b.jpg" 
+          src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/class2.jpg?alt=media&token=281e6af6-8970-44a1-bf5b-13727a09aee4" 
           alt="Educational Image 2" 
           style={{ width: '30%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
         />
         <img 
-          src="https://repost.uz/storage/uploads/1-1640501946-kamila-post-material.jpeg" 
+          src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/class3.jpg?alt=media&token=1431138b-e235-4276-85c7-ea630d3edc38" 
           alt="Educational Image 3" 
           style={{ width: '30%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
         />
@@ -58,41 +58,45 @@ const Dashboard = () => {
       <Typography variant="h5" sx={{ marginTop: '40px', marginBottom: '20px', textAlign: 'center' }}>
         Мектеп жаңалықтары
       </Typography>
-      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-        {/* News Item 1 */}
-        <Paper elevation={3} sx={{ display: 'flex', padding: '20px', gap: '20px', alignItems: 'center' }}>
-          <img 
-            src="https://sh-gustomojskaya-r38.gosweb.gosuslugi.ru/netcat_files/58/653/1673088514_pro_dachnikov_com_p_sportivnii_zal_v_shkole_foto_37.jpg" 
-            alt="School News 1" 
-            style={{ width: '150px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
-          />
-          <Typography variant="body1">
-            Мектебімізде жаңа спорт залдың ашылуы болды. Бұл оқиға оқушыларға дене шынықтырумен айналысуға қосымша мүмкіндіктер береді.
-          </Typography>
-        </Paper>
-        
-        {/* News Item 2 */}
-        <Paper elevation={3} sx={{ display: 'flex', padding: '20px', gap: '20px', alignItems: 'center' }}>
-          <img 
-            src="https://dknews.kz/storage/news/2022-03/q9jnVpZHfcZJz55VtBq2tV52lqA9GYFRA0x9QezF.jpg" 
-            alt="School News 2" 
-            style={{ width: '150px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
-          />
-          <Typography variant="body1">
-            Мектеп оқушылары арасында химия пәнінен олимпиада ұйымдастырылды. Оқушылар жоғары нәтижелер көрсетіп, жүлделі орындар иеленді.
-          </Typography>
-        </Paper>
-        
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>        
         {/* News Item 3 */}
         <Paper elevation={3} sx={{ display: 'flex', padding: '20px', gap: '20px', alignItems: 'center' }}>
           <img 
-            src="https://shkola40staryjoskol-r31.gosweb.gosuslugi.ru/netcat_files/multifile/182/1259/Foto2.jpg" 
+            src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/library.jpg?alt=media&token=083f7b5a-4a3c-47c5-a94c-f831eb3c0184" 
             alt="School News 3" 
-            style={{ width: '150px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
+            style={{ width: '250px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
           />
           <Typography variant="body1">
-            Жаңа оқу жылында мектеп кітапханасы толықтай жаңартылып, оқушыларға кеңейтілген әдебиет қоры ұсынылды.
+          Биыл жаңа оқу жылында мектебіміздің кітапханасы толықтай жаңартылып, оқушыларға кеңейтілген әдебиет қоры ұсынылды. Сонымен қатар, кітаптарды сыртқа тіркеусіз алып шығуға жол бермеу мақсатында "Антикраж" ұрлыққа қарсы радиожиілік жүйесі орнатылды.
           </Typography>
+        </Paper>
+      </Box>
+
+
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>        
+        {/* News Item 3 */}
+        <Paper elevation={3} sx={{ display: 'flex', padding: '20px', gap: '20px', alignItems: 'center' }}>
+          <img 
+            src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/news2.jpg?alt=media&token=087ecbdc-9d90-4e8b-8ef0-e75d3bd5145e" 
+            alt="School News 3" 
+            style={{ width: '250px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
+          />
+          <Typography variant="body1">
+          Биылғы жылы мектебімізге жаңадан роботтар келді. Бұл оқиға оқушылапға робот әлемімен танысуға мүмкіндіктер береді.
+          </Typography>
+        </Paper>
+      </Box>
+
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>        
+        {/* News Item 3 */}
+        <Paper elevation={3} sx={{ display: 'flex', padding: '20px', gap: '20px', alignItems: 'center' }}>
+          <img 
+            src="https://firebasestorage.googleapis.com/v0/b/chemistry-bcf93.appspot.com/o/news3.jpg?alt=media&token=33ad0c23-f7e1-4173-b307-ae9b5dc68770" 
+            alt="School News 3" 
+            style={{ width: '250px', height: '150px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }} 
+          />
+          <Typography variant="body1">
+          «Зерде» зерттеу жобалары мен шығармашылық жұмыстары конкурсының РЕСПУБЛИКАЛЫҚ КЕЗЕҢІНДЕ «Информатика,робототехника, STEM инженерия» секциясы бойынша шәкіртіміз 7-сынып оқушысы Ибрайм Ералы, жетекшісі Айменова Венера жүлделі 1️⃣орынды иеленіп,АБЫРОЙЫМЫЗДЫ АСҚАҚТАТТЫ,МЕКТЕП МЕРЕЙІН БҮКІЛ РЕСПУБЛИКАҒА ПАШ ЕТТІ.          </Typography>
         </Paper>
       </Box>
     </Container>
