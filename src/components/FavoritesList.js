@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, TextField, Button, Typography, Box, Paper } from '@mui/material';
+import { Container, TextField, Button, Typography, Box, Paper, Link } from '@mui/material';
 
 const ContactSchool = () => {
   // State for form fields
@@ -96,6 +96,31 @@ const ContactSchool = () => {
             </Button>
           </Box>
         </form>
+      </Paper>
+
+      {/* Contact Details Section */}
+      <Paper elevation={1} sx={{ marginTop: '40px', padding: '20px', backgroundColor: '#f9f9f9' }}>
+        <Typography variant="h5" sx={{ marginBottom: '20px', textAlign: 'center' }}>
+          Мектептің байланыс ақпараты
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Мекен-жай:</strong> Қызылорда облысы, Қызылорда қаласы, Ипподром мөлтек ауданы, Есімхан көшесі 19 Б.
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Пошта мекен-жайы:</strong> Қызылорда облысы, Қызылорда қаласы, Ипподром мөлтек ауданы, Есім Хан көшесі, құрылыс 19 Б
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Электрондық пошта:</strong> <Link href="mailto:278ortamektep@mail.ru">278ortamektep@mail.ru</Link>
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Ұялы телефон:</strong> +7 (724) 270-1590
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Facebook:</strong> <Link href="https://www.facebook.com/profile.php?id=100053884188466&mibextid=LQQJ4d" target="_blank">Б.Момынбаев Атындағы Іт-мектеп-лицей</Link>
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: '10px', fontSize: '16px' }}>
+          <strong>Instagram:</strong> <Link href="https://www.instagram.com/mektep_litseyi_278.bastauysh/" target="_blank">@mektep_litseyi_278.bastauysh</Link>
+        </Typography>
       </Paper>
     </Container>
   );
